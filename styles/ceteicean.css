@@ -1,0 +1,295 @@
+tei-ab { 
+  display:block;
+}
+tei-back { 
+  display:block;
+ }
+tei-body { 
+  display: block;
+ }
+tei-caption { display: block; }
+tei-castitem { 
+  display: list-item;
+ }
+tei-castlist { 
+  display: block;
+ }
+tei-cell { 
+  display: table-cell; 
+  padding: 1px;
+  vertical-align: inherit;
+}
+tei-code { 
+  font-family: monospace;
+  font-size: larger;
+  white-space:pre;
+}
+tei-colophon { 
+  display: block;
+ }
+tei-dateline { 
+  display: block;
+ }
+tei-del { 
+  text-decoration: line-through;
+ }
+tei-div, tei-div1, tei-div2, tei-div3, tei-div4, tei-div5, tei-div6, tei-div7, tei-divgen { 
+  display:block;
+  margin:1em;
+}
+teieg-egxml { 
+  display: block;
+  margin-block-start: 1em; 
+  margin-block-end: 1em; 
+  font-family: monospace; 
+  white-space: pre;
+}
+tei-emph { 
+  font-style: italic;
+}
+tei-figure { 
+  display: block;
+}
+tei-floatingtext { 
+  display: block;
+}
+tei-head { 
+  display: block;
+}
+tei-hi[rend~="bold"] { 
+  font-weight: bold;
+}
+tei-hi[rend~="italic"] { 
+  font-style: italic;
+}
+tei-hi[rend~="underline"] { 
+  text-decoration: underline;
+}
+tei-item { 
+  display:list-item;
+  text-align: match-parent;
+}
+tei-l { 
+  display:block;
+}
+tei-lg { 
+  display:block;
+}
+tei-list {
+  display: block;
+  margin-block-start: 1em; 
+  margin-block-end: 1em; 
+  padding-inline-start: 40px;
+}
+tei-list[rend="numbered"] { 
+  list-style-type: decimal;
+}
+tei-list[rend="bulleted"] { 
+  list-style-type: disc;
+}
+tei-listannotation {
+  display: block;
+}
+tei-listapp {
+  display: block;
+}
+tei-listapp > tei-app {
+  display: list-item;
+}
+tei-listbibl {
+  display: block;
+}
+tei-listbibl > tei-bibl {
+  display: list-item;
+}
+tei-listchange {
+  display: block;
+}
+
+tei-listevent {
+  display: block;
+}
+tei-listnym {
+  display: block;
+}
+tei-listobject {
+  display: block;
+}
+tei-listorg {
+  display: block;
+}
+tei-listperson {
+  display: block;
+}
+tei-listplace {
+  display: block;
+}
+tei-listref {
+  display: block;
+}
+tei-listwit {
+  display: block;
+}
+
+tei-p { 
+  display: block;
+}
+tei-rdg { 
+  display: none;
+}
+tei-row { 
+  display: table-row; 
+  border-color: inherit;
+  vertical-align: inherit;
+}
+tei-rs { /* placeholder */ }
+tei-rubric { /* placeholder */ }
+tei-s { /* placeholder */ }
+tei-said { /* placeholder */ }
+tei-salute { /* placeholder */ }
+tei-samplingdecl { /* placeholder */ }
+tei-schemaref { /* placeholder */ }
+tei-schemaspec { /* placeholder */ }
+tei-scriptdesc { /* placeholder */ }
+tei-scriptnote { /* placeholder */ }
+tei-scriptstmt { /* placeholder */ }
+tei-seal { /* placeholder */ }
+tei-sealdesc { /* placeholder */ }
+tei-secfol { /* placeholder */ }
+tei-secl { /* placeholder */ }
+tei-seg { /* placeholder */ }
+tei-segmentation { /* placeholder */ }
+tei-sense { /* placeholder */ }
+tei-sequence { /* placeholder */ }
+tei-series { /* placeholder */ }
+tei-seriesstmt { /* placeholder */ }
+tei-set { /* placeholder */ }
+tei-setting { /* placeholder */ }
+tei-settingdesc { /* placeholder */ }
+tei-settlement { /* placeholder */ }
+tei-sex { /* placeholder */ }
+tei-shift { /* placeholder */ }
+tei-sic { /* placeholder */ }
+tei-signatures { /* placeholder */ }
+tei-signed { /* placeholder */ }
+tei-socalled { /* placeholder */ }
+tei-socecstatus { /* placeholder */ }
+tei-sound { /* placeholder */ }
+tei-source { /* placeholder */ }
+tei-sourcedesc { /* placeholder */ }
+tei-sourcedoc { /* placeholder */ }
+tei-sp { /* placeholder */ }
+tei-space { /* placeholder */ }
+tei-span { /* placeholder */ }
+tei-spangrp { /* placeholder */ }
+tei-speaker { /* placeholder */ }
+tei-specdesc { /* placeholder */ }
+tei-specgrp { /* placeholder */ }
+tei-specgrpref { /* placeholder */ }
+tei-speclist { /* placeholder */ }
+tei-spgrp { /* placeholder */ }
+tei-sponsor { /* placeholder */ }
+tei-stage { /* placeholder */ }
+tei-stamp { /* placeholder */ }
+tei-standoff { 
+  display: none; 
+}
+tei-state { /* placeholder */ }
+tei-stdvals { /* placeholder */ }
+tei-street { /* placeholder */ }
+tei-stress { /* placeholder */ }
+tei-string { /* placeholder */ }
+tei-styledefdecl { /* placeholder */ }
+tei-subc { /* placeholder */ }
+tei-subst { /* placeholder */ }
+tei-substjoin { /* placeholder */ }
+tei-summary { /* placeholder */ }
+tei-superentry { /* placeholder */ }
+tei-supplied { /* placeholder */ }
+tei-support { /* placeholder */ }
+tei-supportdesc { /* placeholder */ }
+tei-surface { /* placeholder */ }
+tei-surfacegrp { /* placeholder */ }
+tei-surname { /* placeholder */ }
+tei-surplus { /* placeholder */ }
+tei-surrogates { /* placeholder */ }
+tei-syll { /* placeholder */ }
+tei-symbol { /* placeholder */ }
+tei-table { 
+  display: table;
+  box-sizing: border-box;
+  border-spacing: 2px;
+  border-collapse: separate;
+  text-indent: initial;
+}
+tei-tag { /* placeholder */ }
+tei-tagsdecl { /* placeholder */ }
+tei-tagusage { /* placeholder */ }
+tei-taxonomy { /* placeholder */ }
+tei-tech { /* placeholder */ }
+tei-tei { /* placeholder */ }
+tei-teicorpus { /* placeholder */ }
+tei-teiheader { 
+  display: none;
+}
+tei-term { /* placeholder */ }
+tei-terrain { /* placeholder */ }
+tei-text { /* placeholder */ }
+tei-textclass { /* placeholder */ }
+tei-textdesc { /* placeholder */ }
+tei-textlang { /* placeholder */ }
+tei-textnode { /* placeholder */ }
+tei-then { /* placeholder */ }
+tei-time { /* placeholder */ }
+tei-timeline { /* placeholder */ }
+tei-title { /* placeholder */ }
+tei-titlepage { /* placeholder */ }
+tei-titlepart { /* placeholder */ }
+tei-titlestmt { /* placeholder */ }
+tei-tns { /* placeholder */ }
+tei-trailer { /* placeholder */ }
+tei-trait { /* placeholder */ }
+tei-transcriptiondesc { /* placeholder */ }
+tei-transpose { /* placeholder */ }
+tei-tree { /* placeholder */ }
+tei-triangle { /* placeholder */ }
+tei-typedesc { /* placeholder */ }
+tei-typenote { /* placeholder */ }
+tei-u { /* placeholder */ }
+tei-unclear { /* placeholder */ }
+tei-undo { /* placeholder */ }
+tei-unicodename { /* placeholder */ }
+tei-unicodeprop { /* placeholder */ }
+tei-unihanprop { /* placeholder */ }
+tei-unit { /* placeholder */ }
+tei-unitdecl { /* placeholder */ }
+tei-unitdef { /* placeholder */ }
+tei-usg { /* placeholder */ }
+tei-val { /* placeholder */ }
+tei-valdesc { /* placeholder */ }
+tei-valitem { /* placeholder */ }
+tei-vallist { /* placeholder */ }
+tei-valt { /* placeholder */ }
+tei-value { /* placeholder */ }
+tei-variantencoding { /* placeholder */ }
+tei-vcoll { /* placeholder */ }
+tei-vdefault { /* placeholder */ }
+tei-view { /* placeholder */ }
+tei-vlabel { /* placeholder */ }
+tei-vmerge { /* placeholder */ }
+tei-vnot { /* placeholder */ }
+tei-vocal { /* placeholder */ }
+tei-vrange { /* placeholder */ }
+tei-w { /* placeholder */ }
+tei-watermark { /* placeholder */ }
+tei-when { /* placeholder */ }
+tei-width { /* placeholder */ }
+tei-wit { /* placeholder */ }
+tei-witdetail { /* placeholder */ }
+tei-witend { /* placeholder */ }
+tei-witness { /* placeholder */ }
+tei-witstart { /* placeholder */ }
+tei-writing { /* placeholder */ }
+tei-xenodata { 
+  display: none;
+}
