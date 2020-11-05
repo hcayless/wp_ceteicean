@@ -12,7 +12,6 @@ function ceteicean_shortcode($atts) {
     array(
       'src' => '',
       'id' => uniqid("c_"),
-      'css' => null
     ),
     $atts,
     'ceteicean'
@@ -22,8 +21,9 @@ function ceteicean_shortcode($atts) {
     $result =  '<div id="' . $atts['id'] . '">';
     $result .= '<script>';
     $result .= '  let ' . $atts['id'] . ' = new CETEI();';
-    $result .= '  if (typeof ceteicean_behaviors !== "undefined") { ';
-    $result .= '    ' . $atts['id'] . '.addBehaviors(ceteicean_behaviors); } ';
+    $result .= '  ' . $atts['id'] . '.addBehaviors(ceteicean_behaviors);';
+    $result .= '  if (typeof extra_ceteicean_behaviors !== "undefined") { ';
+    $result .= '    ' . $atts['id'] . '.addBehaviors(extra_ceteicean_behaviors); } ';
     $result .= $atts['id'] . '.getHTML5("' . $atts['src'] . '", function(data) { document.getElementById("' . $atts['id'] . '").appendChild(data);});';
     $result .= "</script></div>";
     return $result;
