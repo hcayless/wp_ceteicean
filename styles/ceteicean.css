@@ -17,7 +17,6 @@ tei-castlist {
 tei-code { 
   font-family: monospace;
   font-size: larger;
-  white-space:pre;
 }
 tei-colophon { 
   display: block;
