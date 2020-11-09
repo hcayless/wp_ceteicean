@@ -37,9 +37,9 @@ function add_ceteicean_css() {
 
 function add_ceteicean_js() {
   if ( !is_admin() ) {
-    wp_register_script('ceteiceanjs','/wp-content/plugins/ceteicean/javascript/CETEI.js',);
+    wp_register_script('ceteiceanjs','/wp-content/plugins/ceteicean/javascript/CETEI.js');
     wp_enqueue_script('ceteiceanjs');
-    wp_register_script('ceteiceanbehaviors','/wp-content/plugins/ceteicean/javascript/behaviors.js',);
+    wp_register_script('ceteiceanbehaviors','/wp-content/plugins/ceteicean/javascript/behaviors.js');
     wp_enqueue_script('ceteiceanbehaviors');
   }
 }
